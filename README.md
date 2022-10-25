@@ -36,6 +36,7 @@ I ran into a couple of challenges with the analysis. First, creating the "Outcom
 **What can you conclude about the Outcomes based on Goals?**
 
 The main conclusion I noticed here is that success is correlated with the amount of money in the goal. The more money being asked for, the less successful the campaign will be. It makes logical sense, but the data backed that theory up. The interesting point is that I see a spike in success between $30,000-$44,999, but the sample size is much smaller than the sample size around the smaller goals. All in all, I think the conclusion is, asking for less money means that the campaign is more likely to succeed. 
+
 **What are some limitations of this dataset?**
 
 One main limitation is the sample size of campaigns asking for more than $15,000 for a play. If we had more data, I think the "outcomes based on goals" section would be more valuable and more accurate, but it makes sense that not a lot of plays ask for $15,000 or more. 
