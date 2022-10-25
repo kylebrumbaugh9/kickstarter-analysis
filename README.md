@@ -29,16 +29,19 @@ I noticed some trends in the data as well, so I threw a trendline onto the chart
 I ran into a couple of challenges with the analysis. First, creating the "Outcomes Based on Goals" worksheet was slightly difficult with the COUNTIFS() function. Ensuring that I had the proper values turned into a lot of manual work since I could not figure out how to automatically fill the additional rows dynamically. Second, the first time I built the chart for "Outcomes Based on Goal", my values were off. I realized that I had just used the "less than" and "greater than" symbols instead of "less than or equal to" and "greater than or equal to". That fixed my values so that my graph was identical to the assignment. 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+**What are two conclusions you can draw about the Outcomes based on Launch Date?**
 1. One conclusion that I drew is that the data shows a spike in the number of successful campaigns in the late spring/early summer. After the peak in May, there is a relatively consistent decrease in success through the end of the year. The late spring/early summer stretch of May-July averages about 100 successful campaigns per month, dropping off to averaging about 55 successful campaigns per month from October-December. This tells me that the late spring/early summer period is the best time to launch a campaign, at about a 70% success rate. 
 2. Another conclusion that I drew is that the rate of failed campaigns remains relatively consistent over the course of the year though, averaging around 40 failed campaigns per month. This tells me that December is the worst time to launch a campaign, as the success rate is about 50%.
 
-- What can you conclude about the Outcomes based on Goals?
+**What can you conclude about the Outcomes based on Goals?**
+
 The main conclusion I noticed here is that success is correlated with the amount of money in the goal. The more money being asked for, the less successful the campaign will be. It makes logical sense, but the data backed that theory up. The interesting point is that I see a spike in success between $30,000-$44,999, but the sample size is much smaller than the sample size around the smaller goals. All in all, I think the conclusion is, asking for less money means that the campaign is more likely to succeed. 
-- What are some limitations of this dataset?
+**What are some limitations of this dataset?**
+
 One main limitation is the sample size of campaigns asking for more than $15,000 for a play. If we had more data, I think the "outcomes based on goals" section would be more valuable and more accurate, but it makes sense that not a lot of plays ask for $15,000 or more. 
 
 Another limitation of the dataset is the fact that we're only looking at Kickstarter data. We should look at other sources of crowdfunding and see if the same trends exist and/or combine that data with our dataset so that we get a larger sample size. 
 
-- What are some other possible tables and/or graphs that we could create?
+**What are some other possible tables and/or graphs that we could create?**
+
 I've added trendlines to one of the graphs to visualize the trend more effectively, but besides that, I think we need to do some statistical analyses that take sample size into account for our "Outcomes Based on Goal" sheet and I think we need to take a look at the "Theater Outcomes Based on Launch Date" on a "per year" basis as well. I took a look briefly at the data and it appears that the late spring/early summer spike has been consistent over the last few years, but I want to make sure there aren't any outliers. At the end of the day, the goal here is to find the right ingredients for Louise to plan her crowdfunding campaign. I think we need to look at her costs and make sure that those are low so that we can drive the goal amount down to increase our odds for success and then launch the campaign in the late spring/early summer. Therefore, I think a table holding her costs and then some visualizations around odds of success would really help solidify the approach Louise should pursue. 
